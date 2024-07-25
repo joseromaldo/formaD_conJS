@@ -17,13 +17,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/formaD_conJS/views/grado/index.php">Grados</a>
                         </li>
-                    </ul>
-                    <ul class="dropdown-menu bg-warning">
                         <li class="nav-item">
                             <a class="nav-link" href="/formaD_conJS/views/arma/index.php">Armas</a>
                         </li>
-                    </ul>
                     
+                    </ul>
                 </li>
             </ul>
         </div>

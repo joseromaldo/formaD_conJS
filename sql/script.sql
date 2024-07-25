@@ -12,10 +12,9 @@ CREATE TABLE  grados (
 
 CREATE TABLE armas (
 arma_id SERIAL NOT NULL,
-arma_descripcion VARCHAR(50) NOT NULL,
-arma_situacion SMALLINT DEFAULT 1,
+arma_nombre VARCHAR(50) NOT NULL,
+arma_sit SMALLINT DEFAULT 1,
 PRIMARY KEY (arma_id)
-
 );
 
 

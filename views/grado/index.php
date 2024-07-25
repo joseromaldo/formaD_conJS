@@ -58,6 +58,6 @@
   </div>
 
 </div>
-<script defer src="/formaD_conJS/src/js/funciones.js"></script>
+<script defer src="/formaD_conJS/src/funciones.js"></script>
 <script defer src="/formaD_conJS/src/js/grado/index.js"></script>
 <?php include_once '../../includes/footer.php' ?>
