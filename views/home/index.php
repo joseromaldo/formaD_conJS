@@ -1,9 +1,9 @@
-<?php include_once '../templates/header.php'?>
-<?php include_once '../templates/navbar.php'?>
+<?php include_once '../../includes/header.php'?>
+
 
 <div class="container my-5">
     <div class="row justify-content-center">
-      <div class="col-md-8 p-0 rounded-3 shadow-lg overflow-hidden" style="background-image: url('../../src/images/foto.jpg'); background-size: cover; background-position: center;">
+      <div class="col-md-8 p-0 rounded-3 shadow-lg overflow-hidden" style="background-image: url('../../src/img/foto.jpg'); background-size: cover; background-position: center;">
         <div class="p-5 text-white text-center" style="background: rgba(0, 0, 0, 0.7);">
           <h1 class="mb-4">¡Bienvenido a nuestra Plataforma de Asignación de Tareas!</h1>
           <p class="mb-3">
@@ -17,4 +17,4 @@
     </div>
   </div>
 
-<?php include_once '../templates/footer.php'?>
+<?php include_once '../../includes/footer.php'?>
