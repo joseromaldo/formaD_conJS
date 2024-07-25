@@ -1,7 +1,7 @@
 <nav class="navbar fixed-top navbar-expand-lg bg-primary shadow-sm p-3 mb-5 rounded">
   <div class="container-fluid">
-    <a class="navbar-brand me-2 d-flex align-items-center text-white" href="#">
-      <img src="/src/img/logo.jpeg" alt="Logo" width="30" height="30" class="me-2 rounded"> 
+    <a class="navbar-brand me-2 d-flex align-items-center text-white" href="/formaD_conJS/views/home/index.php">
+      <img src="/formaD_conJS/src/img/logo.jpeg" alt="Logo" width="30" height="30" class="me-2 rounded"> 
       <span>Application Control</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,12 +10,15 @@
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="/views/home/home.php"><i class="bi bi-house-fill me-2"></i>Inicio</a>
+          <a class="nav-link active text-white" aria-current="page" href="/formaD_conJS/views/home/index.php"><i class="bi bi-house-fill me-2"></i>Inicio</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="../views/grado/grados.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Grado
           </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/formaD_conJS/views/grado/index.php">Creación de grados</a></li>
+          </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
