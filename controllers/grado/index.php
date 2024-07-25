@@ -10,7 +10,7 @@ try {
     switch ($metodo) {
         case 'POST':
             $tipo = $_REQUEST['tipo']; //Se cambió de posición esta variable
-            $cliente = new Grado($_POST);
+            $grado = new Grado($_POST);
             switch ($tipo) {
                 case '1':
 

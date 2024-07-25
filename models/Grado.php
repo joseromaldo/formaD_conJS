@@ -8,9 +8,9 @@ class Grado extends Conexion{
 
 
     public function __construct($args = []){
-        $this->gra_id = $args['cliente_id'] ?? null;
-        $this->gra_nombre = $args['cliente_nombre'] ?? '';
-        $this->gra_sit = $args['cliente_situacion'] ?? '';
+        $this->gra_id = $args['gra_id'] ?? null;
+        $this->gra_nombre = $args['gra_nombre'] ?? '';
+        $this->gra_sit = $args['gra_sit'] ?? '';
     }
 
     public function guardar (){
