@@ -56,6 +56,6 @@ Create table tareas (
     tar_app int not null,
     tar_descripcion varchar (50) not null,
     tar_fecha date not null,
-    tar_estado char (1) DEFAULT '1',
-    foreign key (tar_app) REFERENCES aplicaciones(apl_id)
+    tar_sit char (1) DEFAULT 1,
+    FOREIGN KEY (tar_app) REFERENCES aplicacion(apl_id)
 );

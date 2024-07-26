@@ -26,6 +26,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/formaD_conJS/views/programador/index.php">Programadores</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/formaD_conJS/views/tarea/index.php">Tareas</a>
+                        </li>
                     
                     </ul>
                 </li>
