@@ -20,6 +20,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/formaD_conJS/views/arma/index.php">Armas</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/formaD_conJS/views/aplicacion/index.php">Aplicaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/formaD_conJS/views/programador/index.php">Programadores</a>
+                        </li>
                     
                     </ul>
                 </li>
