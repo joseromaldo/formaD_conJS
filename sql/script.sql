@@ -43,12 +43,12 @@ PRIMARY KEY (apl_id)
 
 CREATE TABLE asignacion(
 asi_id SERIAL NOT NULL,
-asi_programador INTEGER,
-asi_aplicacion INTEGER,
-asi_situacion SMALLINT DEFAULT 1,
+asi_pro INTEGER,
+asi_app INTEGER,
+asi_sit SMALLINT DEFAULT 1,
 PRIMARY KEY (asi_id),
-FOREIGN KEY (asi_programador) REFERENCES programador (pro_id),
-FOREIGN KEY (asi_aplicacion) REFERENCES aplicacion (apl_id)
+FOREIGN KEY (asi_pro) REFERENCES programador (pro_id),
+FOREIGN KEY (asi_app) REFERENCES aplicacion (apl_id)
 );
 
 Create table tareas (

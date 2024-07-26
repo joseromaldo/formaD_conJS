@@ -29,6 +29,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/formaD_conJS/views/tarea/index.php">Tareas</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/formaD_conJS/views/asignar/index.php">Asignación de Apps</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/formaD_conJS/views/detalle/index.php">Detalle de trabajos</a>
+                        </li>
                     
                     </ul>
                 </li>
